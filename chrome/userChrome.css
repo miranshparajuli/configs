@@ -1,0 +1,153 @@
+/* userChrome.css — minimal monochrome | one-line layout: tabs + urlbar + settings on single bar */
+/* REQUIRES: toolkit.legacyUserProfileCustomizations.stylesheets = true in about:config */
+
+:root {
+  --bg: #000;
+  --bg2: #000;
+  --bg3: #000;
+  --fg: #fff;
+  --fg2: #fff;
+  --ac: #fff;
+  --brd: #fff;
+  --font: "JetBrainsMono Nerd Font", monospace;
+
+  --urlbar-width: 29vw; /* Change this to make the search bar wider/thinner */
+  --bar-height: 40px;
+}
+
+/* ── FONT: target chrome elements specifically, avoid * which breaks icon fonts ── */
+#navigator-toolbox,
+#navigator-toolbox *:not([class*="icon"]):not([class*="glyph"]):not(.toolbarbutton-icon):not(.tab-icon-image):not(.identity-icon):not(.urlbar-icon):not(.urlbar-search-button):not(.close-icon) {
+  font-family: var(--font) !important;
+}
+.tab-label, .tab-text, .urlbar-input, #urlbar-input, .urlbarView-title, .urlbarView-url,
+.subviewbutton, menuitem, .panel-header label {
+  font-family: var(--font) !important;
+  -moz-osx-font-smoothing: auto !important;
+}
+
+/* zero rounding everywhere */
+*,
+#urlbar,
+#urlbar-background,
+.urlbarView,
+.tab-background,
+menupopup,
+panel,
+.panel-arrowcontent { border-radius: 0 !important; }
+
+/* ── ONE-LINE MERGE ─────────────────────────────────────────────────────────── */
+#navigator-toolbox { display: flex !important; flex-direction: column !important; background: var(--bg) !important; border-bottom: 1px solid var(--brd) !important; }
+
+#TabsToolbar {
+  -moz-box-ordinal-group: 1 !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  background: var(--bg) !important;
+  padding: 0 4px !important;
+  min-height: 40px !important;
+  max-height: 40px !important;
+}
+
+#nav-bar {
+  -moz-box-ordinal-group: 1 !important;
+  background: var(--bg) !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  flex: 1 !important;
+  min-height: 40px !important;
+}
+
+#urlbar-container {
+  flex: 1 !important;
+  min-width: 0 !important;
+  padding: 3px 0 !important;
+}
+
+.titlebar-spacer[type="pre-tabs"],
+.titlebar-spacer[type="post-tabs"] { display: none !important; }
+
+/* ── HIDE UNNEEDED ELEMENTS ─────────────────────────────────────────────────── */
+#PersonalToolbar { display: none !important; }
+#sidebar-header { display: none !important; }
+#back-button, #forward-button, #home-button, #library-button,
+#fxa-toolbar-menu-button, #unified-extensions-button { display: none !important; }
+.toolbarspring, toolbarspring { display: none !important; }
+#reader-mode-button, #picture-in-picture-button, #star-button-box,
+#tracking-protection-icon-container, #page-action-buttons, #identity-icon-label { display: none !important; }
+
+/* ── CHROME SHELL ───────────────────────────────────────────────────────────── */
+#titlebar { background: var(--bg) !important; }
+.titlebar-buttonbox-container { background: var(--bg) !important; }
+.titlebar-button { background: transparent !important; color: var(--fg2) !important; border: none !important; }
+.titlebar-button:hover { background: var(--bg3) !important; color: var(--fg) !important; }
+.titlebar-close:hover { background: #3a0000 !important; color: var(--fg) !important; }
+
+/* ── TABS ───────────────────────────────────────────────────────────────────── */
+.tab-background { background: transparent !important; border: none !important; box-shadow: none !important; }
+
+.tabbrowser-tab {
+  color: var(--fg2) !important;
+  border-bottom: 2px solid transparent !important;
+  min-height: 36px !important;
+  max-height: 40px !important;
+}
+.tabbrowser-tab[selected="true"] { color: var(--fg) !important; border-bottom: 2px solid var(--fg) !important; }
+.tabbrowser-tab:hover:not([selected="true"]) { color: var(--fg) !important; border-bottom: 2px solid var(--brd) !important; }
+.tab-background[selected="true"] { background: var(--bg3) !important; }
+
+.tab-label, .tab-text { font-size: 12px !important; font-family: var(--font) !important; }
+
+.tab-close-button { color: var(--fg2) !important; }
+.tab-close-button:hover { color: var(--fg) !important; background: transparent !important; }
+
+#tabs-newtab-button, .tabs-newtab-button { color: var(--fg2) !important; }
+#tabs-newtab-button:hover, .tabs-newtab-button:hover { color: var(--fg) !important; background: transparent !important; }
+
+.arrowscrollbox-overflow-start-indicator,
+.arrowscrollbox-overflow-end-indicator { display: none !important; }
+.scrollbutton-up, .scrollbutton-down { background: var(--bg) !important; color: var(--fg2) !important; border: none !important; }
+
+/* ── URL BAR ────────────────────────────────────────────────────────────────── */
+#urlbar { background: var(--bg2) !important; border: 1px solid var(--brd) !important; box-shadow: none !important; color: var(--fg) !important; }
+#urlbar[focused="true"] { border-color: var(--fg) !important; box-shadow: none !important; }
+#urlbar-background { background: var(--bg2) !important; border: none !important; box-shadow: none !important; }
+
+.urlbar-input-box, #urlbar-input {
+  color: var(--fg) !important;
+  font-size: 12px !important;
+  font-family: var(--font) !important;
+}
+
+#identity-icon-box, #identity-box { color: var(--fg2) !important; }
+#urlbar-go-button { color: var(--fg2) !important; background: transparent !important; }
+
+/* urlbar dropdown */
+#PopupAutoCompleteRichResult { background: var(--bg2) !important; border: 1px solid var(--brd) !important; box-shadow: none !important; }
+.urlbarView { background: var(--bg2) !important; }
+.urlbarView-row { background: transparent !important; color: var(--fg2) !important; }
+.urlbarView-row[selected], .urlbarView-row:hover { background: var(--bg3) !important; color: var(--fg) !important; }
+.urlbarView-url { color: var(--fg2) !important; font-size: 11px !important; font-family: var(--font) !important; }
+.urlbarView-title { color: var(--fg) !important; font-family: var(--font) !important; }
+
+/* ── SETTINGS / HAMBURGER ───────────────────────────────────────────────────── */
+#PanelUI-menu-button { color: var(--fg2) !important; background: transparent !important; border: none !important; }
+#PanelUI-menu-button:hover { color: var(--fg) !important; background: transparent !important; }
+#appMenu-popup { background: var(--bg2) !important; border: 1px solid var(--brd) !important; box-shadow: none !important; }
+.panel-arrowcontent { background: var(--bg2) !important; border: 1px solid var(--brd) !important; box-shadow: none !important; padding: 4px 0 !important; }
+.subviewbutton, .toolbarbutton-1.subviewbutton { color: var(--fg2) !important; background: transparent !important; border: none !important; font-family: var(--font) !important; }
+.subviewbutton:hover { color: var(--fg) !important; background: var(--bg3) !important; }
+
+/* ── CONTEXT MENUS ──────────────────────────────────────────────────────────── */
+menupopup, .menupopup-arrowscrollbox { background: var(--bg2) !important; border: 1px solid var(--brd) !important; box-shadow: none !important; }
+menuitem { color: var(--fg2) !important; background: transparent !important; font-family: var(--font) !important; }
+menuitem:hover { background: var(--bg3) !important; color: var(--fg) !important; }
+menuseparator { border-color: var(--brd) !important; }
+
+/* ── SCROLLBARS ─────────────────────────────────────────────────────────────── */
+scrollbar, scrollbarbutton, slider { background: var(--bg2) !important; }
+thumb { background: var(--brd) !important; }
+thumb:hover { background: var(--fg2) !important; }
+

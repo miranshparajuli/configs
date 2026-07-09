@@ -1,0 +1,25 @@
+[opener]
+edit = [
+    { run = 'nvim "$@"', block = true, for = "unix" }
+]
+play = [
+    { run = 'mpv "$@"', orphan = true, for = "unix" }
+]
+view = [
+    { run = 'zathura "$@"', orphan = true, for = "unix" }
+]
+
+[open]
+rules = [
+    { url = "*.pdf", use = "view" },
+    { mime = "video/*", use = "play" },
+    { mime = "audio/*", use = "play" },
+    { mime = "image/*", use = "view" },
+    { mime = "text/*",  use = "edit" }
+]
+
+[manager]
+show_hidden       = true           
+sort_by           = "alphabetical" 
+sort_dir_first    = true           
+sort_hidden_first = false

@@ -1,0 +1,4 @@
+[[manager.prepend_keymap]]
+on   = [ "D" ]
+run  = 'shell "ripdrag \"$@\"" --detach'
+desc = "Drag selected files out of terminal"

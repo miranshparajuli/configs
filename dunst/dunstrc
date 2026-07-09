@@ -1,0 +1,75 @@
+[global]
+### geometry ###
+width = 370
+height = (10,300)
+origin = top-left
+offset = (0,0)
+scale = 0
+highlight = "#FFFFFF"
+progress_bar_min_width = 160
+progress_bar_max_width = 350
+progress_bar_height = 10
+progress_bar_frame_width = 1
+
+### appearance ###
+transparency = 0
+corner_radius = 0
+frame_width = 1 
+gap_size = 8
+padding = 12
+horizontal_padding = 12
+separator_height = 0
+
+### text ###
+font = JetBrainsMono Nerd Font 14
+line_height = 0
+markup = full
+format = "<b>%s</b>\n%b"
+
+### behavior ###
+idle_threshold = 120
+show_age_threshold = 60
+word_wrap = yes
+ellipsize = middle
+ignore_newline = no
+stack_duplicates = true
+hide_duplicate_count = false
+show_indicators = no
+
+### icons ###
+icon_position = left
+min_icon_size = 32
+max_icon_size = 48
+
+### mouse ###
+mouse_left_click = close_current
+mouse_middle_click = do_action
+mouse_right_click = close_all
+
+### misc ###
+browser = firefox
+always_run_script = true
+title = Dunst
+class = Dunst
+
+[urgency_low]
+background = "#000000"
+foreground = "#ffffff"
+frame_color = "#ffffff"
+timeout = 2
+
+[urgency_normal]
+background = "#000000"
+foreground = "#ffffff"
+frame_color = "#ffffff"
+timeout = 3
+
+[urgency_critical]
+background = "#000000"
+foreground = "#ffffff"
+frame_color = "#ffffff"
+timeout = 5
+
+[global]
+icon_path = /usr/share/icons/Adwaita/16x16/status/:/home/mrijann/.config/dunst/assets/    
+enable_recursive_icon_lookup = true

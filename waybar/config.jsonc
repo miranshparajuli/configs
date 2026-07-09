@@ -1,0 +1,105 @@
+{
+  "layer": "top",
+  "position": "top-right",
+  "height": 36,
+  "margin-bottom": 6,
+  "margin-left": 0,
+  "margin-right": 2380,
+
+  "modules-left": [
+    "ext/workspaces",
+    "clock",
+    "group/battery"
+  ],
+
+  /* -------- GROUPS -------- */
+
+  "group/system": {
+    "orientation": "inherit",
+    "modules": [
+      "custom/arrow-left",
+      "cpu",
+      "memory"
+    ]
+  },
+
+  "group/audio": {
+    "orientation": "inherit",
+    "modules": [
+      "custom/arrow-left",
+      "pulseaudio"
+    ]
+  },
+
+  "group/network": {
+    "orientation": "inherit",
+    "modules": [
+      "custom/arrow-left",
+      "network"
+    ]
+  },
+  
+  "group/battery": {
+      "orientation": "inherit",
+      "modules": [
+          "custom/arrow-left",
+          "battery"
+      ]
+  },
+
+  /* -------- CORE MODULES -------- */
+
+   "ext/workspaces": {
+     "format": "{icon}",
+     "on-click": "activate",
+     "ignore-hidden":true,
+     "all-outputs": true,
+     "sort-by-id": true,
+     "format-icons": {
+            "1": "I",
+            "2": "II",
+            "3": "III",
+            "4": "IV",
+            "5": "V",
+            "6": "VI",
+            "7": "VII",
+            "8": "VIII",
+            "9": "IX",
+            "10": "X"
+        }
+   },
+  
+"clock": {
+    "format": "{:%I:%M}",
+    "format-alt": "{:%Y/ %b/ %d}",
+    "tooltip": false
+},
+
+  "battery": {
+    "on-click": "~/.config/mango/scripts/cycle-power.sh",
+    "format": "BAT: {capacity}%",
+    "format-charging": "[BAT: {capacity}%]",
+    "tooltip": false
+  },
+
+  "network": {
+    "format-wifi": " WIFI",
+    "format-ethernet": " ETH",
+    "format-disconnected": " OFF",
+    "tooltip": false,
+    "on-click": " foot -e impala"
+  },
+
+  "pulseaudio": {
+    "format": "VOL: {volume}%"
+  },
+
+"dwl/window": {
+    "format": "[{title}]",
+    "max-length": 15, // Adjust this to ~18 if you want to keep the total length exactly 20
+    "separate-outputs": false
+}
+  /* -------- CUSTOM -------- */
+
+
+}

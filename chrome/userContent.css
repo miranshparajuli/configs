@@ -1,0 +1,52 @@
+/* userContent.css — monochrome content overrides | pure #000 / #fff */
+
+/* ── GLOBAL FONT INJECTION ──────────────────────────────────────────────────── */
+/* Scope to specific text elements only — avoids breaking icon/symbol fonts */
+@-moz-document url-prefix("") {
+  body, p, span, div, a, h1, h2, h3, h4, h5, h6,
+  input, textarea, select, button, label, li, td, th, pre, code {
+    font-family: "JetBrainsMono Nerd Font", monospace !important;
+  }
+  * { border-radius: 0 !important; }
+}
+
+/* ── NEW TAB PAGE ───────────────────────────────────────────────────────────── */
+@-moz-document url("about:newtab"), url("about:home"), url("about:blank") {
+  :root, body, html {
+    background: #000 !important;
+    color: #fff !important;
+    font-family: "JetBrainsMono Nerd Font", "JetBrains Mono NF", "JetBrains Mono", monospace !important;
+  }
+
+  .outer-wrapper, .search-wrapper, .top-sites, .sections-list,
+  .activity-stream, .highlights, .weather, .wallpaper-button,
+  .card-outer, .topic, .ds-card, .ds-section-title,
+  .collapsible-section, .customize-menu, .personalize-button,
+  .logo-and-wordmark, .search-handoff-button,
+  input[type="search"], .contentSearchSuggestionTable { display: none !important; }
+
+  body { background: #000 !important; }
+}
+
+/* ── ABOUT:CONFIG ───────────────────────────────────────────────────────────── */
+@-moz-document url("about:config") {
+  :root, body { background: #000 !important; color: #fff !important; }
+  table { border-collapse: collapse !important; }
+  td, th { border: 1px solid #222 !important; padding: 4px 8px !important; }
+  tr:hover td { background: #111 !important; }
+  input { background: #111 !important; color: #fff !important; border: 1px solid #222 !important; border-radius: 0 !important; }
+  button { background: #111 !important; color: #fff !important; border: 1px solid #222 !important; border-radius: 0 !important; cursor: pointer !important; }
+  button:hover { background: #1a1a1a !important; color: #fff !important; }
+}
+
+/* ── ABOUT:PREFERENCES ──────────────────────────────────────────────────────── */
+@-moz-document url("about:preferences"), url-prefix("about:preferences#") {
+  :root, body, html { background: #000 !important; color: #fff !important; }
+  .main-content, .pane-container, groupbox, .groupbox-body { background: #000 !important; color: #fff !important; border-color: #222 !important; }
+  category, .category { color: #666 !important; }
+  category:hover, .category:hover, category[selected], .category[selected] { background: #111 !important; color: #fff !important; }
+  input[type="text"], input[type="number"], input[type="url"], select, textarea { background: #111 !important; color: #fff !important; border: 1px solid #222 !important; border-radius: 0 !important; }
+  button, .button { background: #111 !important; color: #fff !important; border: 1px solid #222 !important; border-radius: 0 !important; }
+  button:hover { background: #1a1a1a !important; color: #fff !important; }
+  .sidebar-footer-icon { filter: brightness(0.4) !important; }
+}

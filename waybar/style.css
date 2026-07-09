@@ -1,0 +1,131 @@
+* {
+    font-family: "Terminess Nerd Font Mono";
+    font-size: 24px;
+    font-weight: 900;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+window#waybar {
+    background: #000000; /* Pure Black */
+    border: 1px solid rgba(255,255,255,1);
+    border-radius: 00px;
+}
+
+tooltip {
+    background: rgba(0, 0, 0, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0px;
+}
+tooltip label { 
+    color: #ffffff; 
+}
+
+#custom-arrow-right,
+#custom-arrow-left {
+    margin: 0px 4px 2px 4px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#cpu,
+#memory,
+#disk,
+#custom-updates,
+#custom-playerlabel,
+#custom-cava,
+#custom-notifications,
+#tray,
+#custom-theme-switcher,
+#power-profiles-daemon,
+#control-center,
+#custom-section,
+#custom-stop,
+#custom-record {
+    margin: 6px 4px;
+    padding: 8px 19px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+#custom-section { border-radius: 0 0 0 0; }
+#custom-stop    { border-radius: 0 10px 10px 0; }
+#custom-record  { border-radius: 10px 0 0 10px; }
+
+#workspaces {
+    margin: 0px 4px;
+    padding: 10px 0px;
+    background: transparent;
+}
+
+#workspaces button {
+    font-size: 18px;
+    margin: 0 4px;
+    padding: 0px;
+    color: #333333; /* Dark Grey for empty */
+    background: transparent;
+}
+
+#workspaces button:not(.empty):not(.active) {
+    color: #888888; /* Medium Grey */
+}
+
+#workspaces button.active {
+    color: #ffffff; /* Pure White */
+    background: transparent;
+}
+
+#workspaces button:hover,
+#workspaces button.urgent {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+#pulseaudio,
+#bluetooth {
+    margin: 0px 4px;
+    padding: 0px 5px;
+    background: transparent;
+    color: #ffffff;
+}
+#network{
+    margin: 2px 2px;
+    background: transparent;
+    color: #ffffff;
+}
+
+#pulseaudio-slider {
+    margin: 10px;
+}
+#pulseaudio-slider slider,
+#pulseaudio-slider highlight {
+    background: #ffffff;
+    border: none;
+    border-radius: 8px;
+}
+
+#clock {
+    margin: 0px 4px 2px 4px;
+    padding: 8px 4px;
+    background: transparent;
+    color: #ffffff;
+}
+
+#battery {
+    margin: 0px 4px;
+    padding: 0 3px;
+    color: #ffffff;
+}
+
+#battery.charging {
+    color: #ffffff;
+}
+
+#battery.critical:not(.charging) {
+    color: #ffffff;
+    background-color: #333333;
+}
+
+

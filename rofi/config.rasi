@@ -1,0 +1,104 @@
+configuration {
+  modes: [ drun ];
+  font: "terminess nerd font mono bold 18";
+  drun-display-format: "{name}";
+  disable-history: false;
+  location: 0;
+}
+
+window {
+  background-color: #000000;
+  text-color: #ffffff;
+  border: 1px;
+  border-color: #ffffff;
+
+  width: 400px;
+  anchor: center;
+}
+
+prompt {
+  enabled: false;
+}
+
+textbox-prompt-colon {
+  expand: false;
+  str: ">";
+  border-radius: 100%;
+  background-color: #000000;
+  text-color: #ffffff;
+  padding: 8px 0px 0px 8px;
+}
+
+entry {
+  background-color: #000000;
+  text-color: #ffffff;
+  placeholder-color: #ffffff;
+  horizontal-align: 0;
+  expand: true;
+  placeholder: "search...";
+  blink: true;
+  border: 0px 0px 0px 0px;
+  padding: 8px 0px 0px 0px;
+}
+
+inputbar {
+  children: [ textbox-prompt-colon, prompt, entry ];
+  background-color: #000000;
+  text-color: #ffffff;
+  expand: false;
+  position: center;
+}
+
+listview {
+  background-color: #000000;
+  columns: 1;
+  lines: 10;
+  spacing: 4px;
+  cycle: false;
+  border: 0px;
+  dynamic: true;
+  layout: vertical;
+  scrollbar: false;
+}
+
+mainbox {
+  background-color: #000000;
+  children: [ inputbar, listview ];
+  spacing: 5px;
+  padding: 15px 15px 15px 15px;
+}
+
+element normal.normal,
+element alternate.normal {
+  background-color: #000000;
+  text-color: #ffffff;
+  orientation: horizontal;
+  border-radius: 0px;
+  padding: 6px;
+  border: 0px;
+}
+
+element-text {
+  background-color: #000000;
+  text-color: inherit;
+  expand: true;
+  horizontal-align: 0;
+  vertical-align: 0.5;
+  margin: 2px 0px 2px 2px;
+}
+
+element selected.normal {
+  background-color: #000000;
+  text-color: #ffffff;
+  border: 0px 0px 1px 0px;
+  border-color: #ffffff;
+}
+
+element selected.active {
+  background-color: #000000;
+}
+
+element selected.urgent {
+  background-color: #000000;
+}
+

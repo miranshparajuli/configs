@@ -1,0 +1,58 @@
+# ─────────────── GLOBAL ───────────────
+
+add_newline = true
+command_timeout = 1000
+
+# format = left + right prompt
+format = """
+$directory$cmd_duration$time
+$character
+"""
+
+right_format = """
+"""
+
+# ─────────────── CHARACTER ───────────────
+
+[character]
+success_symbol = "[❯](bold white)"
+error_symbol = "[❯](bold red)"
+
+# ─────────────── DIRECTORY ───────────────
+
+[directory]
+style = "white"
+truncation_length = 3
+truncate_to_repo = true
+format = "[\\[$path\\]]($style) "
+
+# ─────────────── COMMAND TIME ───────────────
+
+[cmd_duration]
+min_time = 500
+format = "[\\[$duration\\]](white) "
+
+# ─────────────── TIME (RIGHT SIDE) ───────────────
+
+[time]
+disabled = false
+format = "[\\[$time\\]](white)"
+time_format = "%I:%M"
+style = "white"
+
+# ─────────────── CLEAN LOOK ───────────────
+
+[package]
+disabled = true
+
+[python]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[rust]
+disabled = true
+
+[golang]
+disabled = true

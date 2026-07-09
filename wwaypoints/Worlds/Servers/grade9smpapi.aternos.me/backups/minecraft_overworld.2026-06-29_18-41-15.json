@@ -1,0 +1,181 @@
+{
+  "schema": "wwaypoints.dimension",
+  "format": 10,
+  "uiState": {
+    "collapsed": {
+      "groups": [],
+      "folders": []
+    },
+    "navStack": []
+  },
+  "items": [
+    {
+      "id": "273b2301-3a94-486d-b722-567e0ea28d8f",
+      "type": "waypoint",
+      "name": "cave",
+      "pos": [
+        -1616,
+        -7,
+        2087
+      ],
+      "color": {
+        "h": 16.173914,
+        "s": 0.46558702,
+        "v": 0.96862745
+      },
+      "icon": "minecraft:deepslate",
+      "display": {
+        "mode": "both",
+        "hidden": false,
+        "locked": false
+      },
+      "properties": {
+        "renderThroughWalls": false
+      },
+      "label": {
+        "preset": "d2a06ed9-c5d5-4fc7-9f14-dbf727342647",
+        "customized": true,
+        "customizations": {
+          "composition": {
+            "schemaVersion": 1,
+            "layerOrder": [
+              "icon",
+              "distance"
+            ],
+            "icon": {
+              "visible": true,
+              "hideWhenNear": false,
+              "showOnlyWhenFacing": false,
+              "source": "FIRST_LETTER",
+              "iconId": "minecraft:grass_block",
+              "customIconFile": "",
+              "capitalizeInitial": true,
+              "squareBackground": true,
+              "offsetX": 0.0,
+              "offsetY": 0.0,
+              "scale": 1.0,
+              "style": {
+                "opacityPercent": 50,
+                "paddingPercent": 10,
+                "backgroundEnabled": true,
+                "backgroundColorMode": 0,
+                "backgroundColorRgb": 0,
+                "coloredFill": false,
+                "outlineEnabled": false,
+                "outlineThicknessPixels": 2,
+                "outlineThicknessPercent": 16,
+                "coloredOutline": false,
+                "shadowEnabled": true,
+                "shadowOpacityPercent": 70
+              },
+              "angleVisibility": {
+                "enabled": false,
+                "hideAngleDeg": 90.0,
+                "fadeAngleDeg": 60.0
+              }
+            },
+            "text": {
+              "visible": false,
+              "hideWhenNear": false,
+              "showOnlyWhenFacing": false,
+              "source": "WAYPOINT_NAME",
+              "literalText": "",
+              "offsetX": 0.0,
+              "offsetY": 0.0,
+              "scale": 1.0,
+              "style": {
+                "opacityPercent": 50,
+                "paddingPercent": 10,
+                "backgroundEnabled": true,
+                "backgroundColorMode": 0,
+                "backgroundColorRgb": 0,
+                "coloredFill": false,
+                "outlineEnabled": false,
+                "outlineThicknessPixels": 2,
+                "outlineThicknessPercent": 16,
+                "coloredOutline": false,
+                "shadowEnabled": true,
+                "shadowOpacityPercent": 70
+              },
+              "angleVisibility": {
+                "enabled": false,
+                "hideAngleDeg": 90.0,
+                "fadeAngleDeg": 60.0
+              }
+            },
+            "distance": {
+              "visible": true,
+              "hideWhenNear": false,
+              "showOnlyWhenFacing": true,
+              "alwaysShow": true,
+              "shortenDistance": true,
+              "nearFadeBlocks": 20,
+              "offsetX": 0.0,
+              "offsetY": 0.0,
+              "scale": 0.75,
+              "style": {
+                "opacityPercent": 50,
+                "paddingPercent": 10,
+                "backgroundEnabled": true,
+                "backgroundColorMode": 0,
+                "backgroundColorRgb": 0,
+                "coloredFill": false,
+                "outlineEnabled": false,
+                "outlineThicknessPixels": 2,
+                "outlineThicknessPercent": 16,
+                "coloredOutline": false,
+                "shadowEnabled": true,
+                "shadowOpacityPercent": 70
+              },
+              "angleVisibility": {
+                "enabled": false,
+                "hideAngleDeg": 90.0,
+                "fadeAngleDeg": 60.0
+              }
+            },
+            "shape": {
+              "visible": false,
+              "hideWhenNear": false,
+              "showOnlyWhenFacing": false,
+              "type": "TRIANGLE",
+              "offsetX": 0.0,
+              "offsetY": 0.0,
+              "scaleX": 1.0,
+              "scaleY": 1.0,
+              "rotationDeg": 180,
+              "fillRgb": 0,
+              "coloredFill": false,
+              "fillOpacityPercent": 50,
+              "outlineEnabled": false,
+              "outlineRgb": 16777215,
+              "coloredOutline": false,
+              "outlineOpacityPercent": 100,
+              "outlineThicknessPercent": 16,
+              "style": {
+                "opacityPercent": 50,
+                "paddingPercent": 10,
+                "backgroundEnabled": false,
+                "backgroundColorMode": 0,
+                "backgroundColorRgb": 0,
+                "coloredFill": false,
+                "outlineEnabled": false,
+                "outlineThicknessPixels": 2,
+                "outlineThicknessPercent": 16,
+                "coloredOutline": false,
+                "shadowEnabled": true,
+                "shadowOpacityPercent": 70
+              },
+              "angleVisibility": {
+                "enabled": false,
+                "hideAngleDeg": 90.0,
+                "fadeAngleDeg": 60.0
+              }
+            },
+            "groupOffsetX": 0.0,
+            "groupOffsetY": 0.0
+          }
+        }
+      }
+    }
+  ]
+}

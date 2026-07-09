@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>~</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --fg: #ffffff;
+  --fg-dim: rgba(255,255,255,0.35);
+  --fg-faint: rgba(255,255,255,0.15);
+}
+
+body {
+  background: #000;
+  color: var(--fg)
+  font-family: 'Terminess Nerd Bold Font', monospace;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  animation: fadeIn 0.6s ease;
+}
+
+.clock-block {
+  text-align: center;
+  color: var(--fg);
+  transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.clock-block.shifted { transform: translateY(-11vh); }
+
+#clock {
+  font-size: clamp(4rem, 11vw, 6rem);
+  font-weight: 700;
+  letter-spacing: -2px;
+  line-height: 1;
+  text-shadow: 0 0 12px rgba(255,255,255,0.08);
+}
+
+#date {
+  margin-top: 14px;
+  font-size: 0.65rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  opacity: 0.35;
+}
+
+.panel {
+  position: absolute;
+  bottom: 14vh;
+  left: 50%;
+  width: 100%;
+  max-width: 620px;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  opacity: 0;
+  transform: translateX(-50%) translateY(30px);
+  transition: all 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+  pointer-events: none;
+}
+.panel.visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+  pointer-events: all;
+}
+
+.search-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid var(--fg-faint);
+  padding-bottom: 12px;
+  transition: border-color 0.25s ease;
+}
+.search-wrap:focus-within { border-bottom: 1px solid var(--fg); }
+
+/* ── SEARCH ENGINE BADGE ── */
+#engine-badge {
+  font-size: 0.9rem; /* Increased size */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: 0;
+  border: none !important; /* Border removed */
+  padding: 2px 6px;
+  transition: opacity 0.2s ease;
+  user-select: none;
+  color: #FFFFFF; /* Strict white */
+  background: #000000;
+}
+#engine-badge.active { opacity: 1; }
+
+/* ── SEARCH WRAPPER ── */
+.search-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #FFFFFF; 
+  padding-bottom: 12px;
+  transition: border-color 0.25s ease;
+}
+#search-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--fg);
+  font-family: inherit;
+  font-size: 1rem;
+  caret-color: var(--fg);
+}
+#search-input::placeholder { color: var(--fg-faint); }
+
+.links-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.links-col { display: flex; flex-direction: column; gap: 10px; }
+
+.group-label {
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--fg-dim);
+  padding-bottom: 6px;
+}
+
+.link-item {
+  text-decoration: none;
+  color: var(--fg);
+  font-size: 0.8rem;
+  opacity: 0.45;
+  transition: all 0.2s ease;
+}
+.link-item:hover { opacity: 1; transform: translateX(3px); }
+
+#hint {
+  position: absolute;
+  bottom: 28px;
+  font-size: 0.55rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  opacity: 0.15;
+  transition: opacity 0.3s ease;
+  user-select: none;
+}
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+</style>
+</head>
+
+<body tabindex="0">
+
+<div class="clock-block" id="clock-block">
+  <div id="clock">00:00:00</div>
+  <div id="date">INITIALIZING...</div>
+</div>
+
+<div class="panel" id="panel">
+  <div class="search-wrap">
+    <span id="engine-badge"></span>
+    <input id="search-input" type="text" placeholder="type to search…" autocomplete="off" spellcheck="false">
+  </div>
+  <div class="links-section">
+    <div class="links-col">
+      <div class="group-label" style="color: var(--fg)";>❯ Entertainment</div>
+      <a class="link-item" href="https://www.youtube.com">YouTube</a>
+      <a class="link-item" href="https://anikototv.to/home">Anikoto</a>
+      <a class="link-item" href="https://mangafire.to/home">Mangafire</a>
+      <a class="link-item" href="https://cubeflix.org/">CubeFlix</a>
+    </div>
+    <div class="links-col">
+      <div class="group-label" style="color: var(--fg);">❯ Tools</div>
+      <a class="link-item" href="https://archlinux.org/packages/">AUR</a>
+      <a class="link-item" href="https://mangowm.github.io/docs">MangoWM</a>
+      <a class="link-item" href="https://github.com">GitHub</a>
+      <a class="link-item" href="https://doc.rust-lang.org/book/title-page.html">Rust-Docs</a>
+    </div>
+    <div class="links-col">
+      <div class="group-label" style="color: var(--fg);">❯ Media</div> 
+      <a class="link-item" href="https://reddit.com">Reddit</a>
+      <a class="link-item" href="https://www.fotmob.com/">FotMob</a>
+      <a class="link-item" href="https://instagram.com">Instagram</a>
+      <a class="link-item" href="https://fmhy.net">FMHY</a>
+    </div>
+    <div class="links-col">
+      <div class="group-label" style="color: var(--fg);">❯ Games</div>
+      <a class="link-item" href="https://globle-game.com/">Globle</a>
+      <a class="link-item" href="https://pokedoku.com/">PokeDoku</a>
+      <a class="link-item" href="https://neal.fun">Neal.Fun</a>
+      <a class="link-item" href="https://pokemonshowdown.com/">Pkmn.Showdown</a>
+    </div>
+  </div>
+</div>
+
+<div id="hint">space</div>
+<script src="clock.js"></script>
+</body>
+</html>
