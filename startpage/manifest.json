@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Custom Minimal New Tab",
+  "version": "1.0",
+  "description": "Bypasses Firefox default landing page with working scripts.",
+  "chrome_url_overrides": {
+    "newtab": "startpage.html"
+  }
+}
+

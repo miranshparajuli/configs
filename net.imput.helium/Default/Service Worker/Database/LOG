@@ -1,0 +1,4 @@
+2026/09/06-14:32:31.887 f66 Reusing MANIFEST /home/mrijann/.config/net.imput.helium/Default/Service Worker/Database/MANIFEST-000001
+2026/09/06-14:32:31.887 f66 Recovering log #3
+2026/09/06-14:32:31.888 f66 (ignoring error) /home/mrijann/.config/net.imput.helium/Default/Service Worker/Database/000003.log: dropping 45 bytes; Corruption: missing start of fragmented record(2)
+2026/09/06-14:32:31.889 f66 Reusing old log /home/mrijann/.config/net.imput.helium/Default/Service Worker/Database/000003.log 

@@ -1,0 +1,13 @@
+# Build artifacts and caches
+**/cache/
+**/Cache/
+**/*.log
+**/*.o
+**/*.rej
+**/*.orig
+
+# Sensitive keys and system data
+**/dconf/db
+**/gnupg/
+**/ssh/
+**/credentials*

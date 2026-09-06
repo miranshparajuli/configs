@@ -1,0 +1,7 @@
+2026/09/05-19:58:24.919 3ba Reusing MANIFEST /home/mrijann/.config/net.imput.helium/Default/IndexedDB/https_sportsbite.org_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/05-19:58:24.919 3ba Recovering log #14
+2026/09/05-19:58:24.919 3ba Reusing old log /home/mrijann/.config/net.imput.helium/Default/IndexedDB/https_sportsbite.org_0.indexeddb.leveldb/000014.log 
+2026/09/05-19:58:25.269 3ca Level-0 table #20: started
+2026/09/05-19:58:25.271 3ca Level-0 table #20: 632 bytes OK
+2026/09/05-19:58:25.272 3ca Delete type=0 #14
+2026/09/05-19:58:25.273 3b8 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,7 @@
+2026/09/05-20:04:30.036 3b8 Reusing MANIFEST /home/mrijann/.config/net.imput.helium/Default/WebStorage/60/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/09/05-20:04:30.036 3b8 Recovering log #3
+2026/09/05-20:04:30.036 3b8 Reusing old log /home/mrijann/.config/net.imput.helium/Default/WebStorage/60/IndexedDB/indexeddb.leveldb/000003.log 
+2026/09/05-20:35:02.609 3ba Level-0 table #5: started
+2026/09/05-20:35:02.610 3ba Level-0 table #5: 2969 bytes OK
+2026/09/05-20:35:02.611 3ba Delete type=0 #3
+2026/09/05-20:35:02.611 3ba Manual compaction at level-0 from (begin) .. (end); will stop at (end)

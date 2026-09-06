@@ -1,0 +1,21 @@
+2026/08/10-19:36:56.947 7fc Reusing MANIFEST /home/mrijann/.config/net.imput.helium/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/08/10-19:36:56.947 7fc Recovering log #7
+2026/08/10-19:36:56.947 7fc Reusing old log /home/mrijann/.config/net.imput.helium/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/000007.log 
+2026/08/10-19:36:57.535 80c Level-0 table #11: started
+2026/08/10-19:36:57.536 80c Level-0 table #11: 2102 bytes OK
+2026/08/10-19:36:57.537 80c Delete type=0 #7
+2026/08/10-19:36:57.538 7fa Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 1186 : 1
+2026/08/10-19:36:57.538 7fa Compacting 1@0 + 1@1 files
+2026/08/10-19:36:57.540 7fa Generated table #12@0: 381 keys, 5008 bytes
+2026/08/10-19:36:57.540 7fa Compacted 1@0 + 1@1 files => 5008 bytes
+2026/08/10-19:36:57.541 7fa compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/10-19:36:57.541 7fa Delete type=2 #11
+2026/08/10-19:36:57.541 7fa Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 1186 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/08/10-19:50:03.110 7fa Compacting 1@1 + 1@2 files
+2026/08/10-19:50:03.117 7fa Generated table #13@1: 124 keys, 3237 bytes
+2026/08/10-19:50:03.117 7fa Compacted 1@1 + 1@2 files => 3237 bytes
+2026/08/10-19:50:03.119 7fa compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/10-19:50:03.119 7fa Delete type=2 #12
+2026/08/10-19:50:03.119 7fa Delete type=2 #5
+2026/08/10-19:50:03.119 7fa Delete type=2 #8
+2026/08/10-19:51:29.271 80c Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)

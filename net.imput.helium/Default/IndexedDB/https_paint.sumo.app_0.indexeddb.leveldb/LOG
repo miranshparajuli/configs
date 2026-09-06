@@ -1,0 +1,5 @@
+2026/08/12-18:58:55.974 503 Creating DB /home/mrijann/.config/net.imput.helium/Default/IndexedDB/https_paint.sumo.app_0.indexeddb.leveldb since it was missing.
+2026/08/12-18:58:55.977 503 Reusing MANIFEST /home/mrijann/.config/net.imput.helium/Default/IndexedDB/https_paint.sumo.app_0.indexeddb.leveldb/MANIFEST-000001
+2026/08/12-19:21:10.471 505 Level-0 table #5: started
+2026/08/12-19:21:10.504 505 Level-0 table #5: 3774300 bytes OK
+2026/08/12-19:21:10.506 505 Delete type=0 #3

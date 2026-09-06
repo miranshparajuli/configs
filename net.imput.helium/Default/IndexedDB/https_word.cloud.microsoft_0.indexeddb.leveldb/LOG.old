@@ -1,0 +1,18 @@
+2026/08/16-18:32:25.322 4ec3 Creating DB /home/mrijann/.config/net.imput.helium/Default/IndexedDB/https_word.cloud.microsoft_0.indexeddb.leveldb since it was missing.
+2026/08/16-18:32:25.326 4ec3 Reusing MANIFEST /home/mrijann/.config/net.imput.helium/Default/IndexedDB/https_word.cloud.microsoft_0.indexeddb.leveldb/MANIFEST-000001
+2026/08/16-18:32:25.331 4ec3 Level-0 table #5: started
+2026/08/16-18:32:25.332 4ec3 Level-0 table #5: 538 bytes OK
+2026/08/16-18:32:25.333 4ec3 Delete type=0 #3
+2026/08/16-18:32:25.334 4ec3 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/08/16-18:32:27.345 4ec3 Level-0 table #7: started
+2026/08/16-18:32:27.346 4ec3 Level-0 table #7: 13356 bytes OK
+2026/08/16-18:32:27.347 4ec3 Delete type=0 #4
+2026/08/16-18:32:27.348 4ec3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/08/16-18:32:27.348 4ec3 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x08\x000\x000\x001\x003\x00_\x00k\x00e\x00y' @ 146 : 1
+2026/08/16-18:32:27.348 4ec3 Compacting 1@1 + 1@2 files
+2026/08/16-18:32:27.349 4ec3 Generated table #8@1: 46 keys, 10818 bytes
+2026/08/16-18:32:27.349 4ec3 Compacted 1@1 + 1@2 files => 10818 bytes
+2026/08/16-18:32:27.350 4ec3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/16-18:32:27.350 4ec3 Delete type=2 #5
+2026/08/16-18:32:27.350 4ec3 Delete type=2 #7
+2026/08/16-18:32:27.350 4ec3 Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x08\x000\x000\x001\x003\x00_\x00k\x00e\x00y' @ 146 : 1 .. (end); will stop at (end)

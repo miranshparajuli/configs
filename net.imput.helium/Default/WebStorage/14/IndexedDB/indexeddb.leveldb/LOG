@@ -1,0 +1,31 @@
+2026/08/10-19:21:03.167 7fc Creating DB /home/mrijann/.config/net.imput.helium/Default/WebStorage/14/IndexedDB/indexeddb.leveldb since it was missing.
+2026/08/10-19:21:03.170 7fc Reusing MANIFEST /home/mrijann/.config/net.imput.helium/Default/WebStorage/14/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/08/10-19:21:03.510 80c Level-0 table #5: started
+2026/08/10-19:21:03.511 80c Level-0 table #5: 566 bytes OK
+2026/08/10-19:21:03.513 80c Delete type=0 #3
+2026/08/10-19:21:03.513 7fa Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/08/10-19:21:03.582 80c Level-0 table #7: started
+2026/08/10-19:21:03.583 80c Level-0 table #7: 548 bytes OK
+2026/08/10-19:21:03.584 80c Delete type=0 #4
+2026/08/10-19:21:03.585 7fa Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/08/10-19:21:03.812 80c Level-0 table #9: started
+2026/08/10-19:21:03.813 80c Level-0 table #9: 550 bytes OK
+2026/08/10-19:21:03.815 80c Delete type=0 #6
+2026/08/10-19:21:03.815 80c Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at '\x00\x03\x00\x00\x05' @ 43 : 1
+2026/08/10-19:21:03.815 80c Compacting 1@0 + 1@1 files
+2026/08/10-19:21:03.816 80c Generated table #10@0: 13 keys, 511 bytes
+2026/08/10-19:21:03.816 80c Compacted 1@0 + 1@1 files => 511 bytes
+2026/08/10-19:21:03.817 80c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/10-19:21:03.817 80c Delete type=2 #9
+2026/08/10-19:21:03.817 7fa Manual compaction at level-0 from '\x00\x03\x00\x00\x05' @ 43 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/08/10-19:21:03.818 7fa Level-0 table #12: started
+2026/08/10-19:21:03.819 7fa Level-0 table #12: 547 bytes OK
+2026/08/10-19:21:03.820 7fa Delete type=0 #8
+2026/08/10-19:21:03.820 7fa Delete type=2 #7
+2026/08/10-19:21:03.820 7fa Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x00\x00\x05' @ 62 : 1
+2026/08/10-19:21:03.820 7fa Compacting 1@0 + 1@1 files
+2026/08/10-19:21:03.822 7fa Generated table #13@0: 17 keys, 549 bytes
+2026/08/10-19:21:03.822 7fa Compacted 1@0 + 1@1 files => 549 bytes
+2026/08/10-19:21:03.824 7fa compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/10-19:21:03.824 7fa Delete type=2 #12
+2026/08/10-19:21:03.824 7fa Manual compaction at level-0 from '\x00\x04\x00\x00\x05' @ 62 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,6 @@
+2026/08/30-18:03:04.884 448 Creating DB /home/mrijann/.config/net.imput.helium/Default/IndexedDB/https_resourcepackcreator.com_0.indexeddb.leveldb since it was missing.
+2026/08/30-18:03:04.887 448 Reusing MANIFEST /home/mrijann/.config/net.imput.helium/Default/IndexedDB/https_resourcepackcreator.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/08/30-18:05:06.435 44a Level-0 table #5: started
+2026/08/30-18:05:06.436 44a Level-0 table #5: 2827 bytes OK
+2026/08/30-18:05:06.437 44a Delete type=0 #3
+2026/08/30-18:05:06.437 44a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

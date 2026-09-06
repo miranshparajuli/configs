@@ -1,0 +1,4 @@
+2026/09/06-14:17:05.383 6cb Reusing MANIFEST /home/mrijann/.config/net.imput.helium/Default/shared_proto_db/MANIFEST-000001
+2026/09/06-14:17:05.384 6cb Recovering log #7
+2026/09/06-14:17:05.385 6cb (ignoring error) /home/mrijann/.config/net.imput.helium/Default/shared_proto_db/000007.log: dropping 162 bytes; Corruption: missing start of fragmented record(2)
+2026/09/06-14:17:05.385 6cb Reusing old log /home/mrijann/.config/net.imput.helium/Default/shared_proto_db/000007.log 

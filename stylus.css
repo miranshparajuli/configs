@@ -1,0 +1,8 @@
+@-moz-document regexp(".*") {
+    /* 1. Global Font and Background Override */
+    *, *::before, *::after {
+        font-family: 'Terminess Nerd Font Mono', sans-serif !important;
+        
+        * { font-size: 22px !important; }
+   }
+}

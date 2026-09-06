@@ -1,0 +1,48 @@
+2026/09/06-14:52:15.383 f79 Reusing MANIFEST /home/mrijann/.config/net.imput.helium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/06-14:52:15.384 f79 Recovering log #822
+2026/09/06-14:52:15.392 f79 Reusing old log /home/mrijann/.config/net.imput.helium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000822.log 
+2026/09/06-14:52:31.809 f68 Level-0 table #827: started
+2026/09/06-14:52:31.824 f68 Level-0 table #827: 1298189 bytes OK
+2026/09/06-14:52:31.827 f68 Delete type=0 #822
+2026/09/06-14:54:30.581 f68 Compacting 1@1 + 1@2 files
+2026/09/06-14:54:30.588 f68 Generated table #828@1: 3662 keys, 158099 bytes
+2026/09/06-14:54:30.588 f68 Compacted 1@1 + 1@2 files => 158099 bytes
+2026/09/06-14:54:30.589 f68 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/09/06-14:54:30.589 f68 Delete type=2 #824
+2026/09/06-14:54:30.589 f68 Delete type=2 #827
+2026/09/06-15:02:29.921 f68 Level-0 table #830: started
+2026/09/06-15:02:29.935 f68 Level-0 table #830: 1257828 bytes OK
+2026/09/06-15:02:29.938 f68 Delete type=0 #826
+2026/09/06-15:03:51.807 f68 Compacting 1@1 + 1@2 files
+2026/09/06-15:03:51.815 f68 Generated table #831@1: 3690 keys, 158611 bytes
+2026/09/06-15:03:51.815 f68 Compacted 1@1 + 1@2 files => 158611 bytes
+2026/09/06-15:03:51.816 f68 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/09/06-15:03:51.817 f68 Delete type=2 #828
+2026/09/06-15:03:51.817 f68 Delete type=2 #830
+2026/09/06-15:12:01.974 f68 Level-0 table #833: started
+2026/09/06-15:12:01.997 f68 Level-0 table #833: 1260706 bytes OK
+2026/09/06-15:12:02.001 f68 Delete type=0 #829
+2026/09/06-15:14:26.833 f68 Compacting 1@1 + 1@2 files
+2026/09/06-15:14:26.842 f68 Generated table #834@1: 3709 keys, 159351 bytes
+2026/09/06-15:14:26.842 f68 Compacted 1@1 + 1@2 files => 159351 bytes
+2026/09/06-15:14:26.843 f68 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/09/06-15:14:26.844 f68 Delete type=2 #833
+2026/09/06-15:14:26.844 f68 Delete type=2 #831
+2026/09/06-15:19:07.363 f68 Level-0 table #836: started
+2026/09/06-15:19:07.377 f68 Level-0 table #836: 1211216 bytes OK
+2026/09/06-15:19:07.379 f68 Delete type=0 #832
+2026/09/06-15:22:23.726 f78 Compacting 1@1 + 1@2 files
+2026/09/06-15:22:23.740 f78 Generated table #837@1: 3729 keys, 164171 bytes
+2026/09/06-15:22:23.740 f78 Compacted 1@1 + 1@2 files => 164171 bytes
+2026/09/06-15:22:23.742 f78 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/09/06-15:22:23.742 f78 Delete type=2 #834
+2026/09/06-15:22:23.742 f78 Delete type=2 #836
+2026/09/06-15:33:45.827 f68 Level-0 table #839: started
+2026/09/06-15:33:45.841 f68 Level-0 table #839: 1301940 bytes OK
+2026/09/06-15:33:45.843 f68 Delete type=0 #835
+2026/09/06-15:35:41.461 f66 Compacting 1@1 + 1@2 files
+2026/09/06-15:35:41.468 f66 Generated table #840@1: 3753 keys, 161417 bytes
+2026/09/06-15:35:41.468 f66 Compacted 1@1 + 1@2 files => 161417 bytes
+2026/09/06-15:35:41.469 f66 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/09/06-15:35:41.469 f66 Delete type=2 #837
+2026/09/06-15:35:41.469 f66 Delete type=2 #839

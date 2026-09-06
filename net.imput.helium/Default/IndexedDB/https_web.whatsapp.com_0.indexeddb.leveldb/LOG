@@ -1,0 +1,39 @@
+2026/09/06-08:16:39.561 69d Reusing MANIFEST /home/mrijann/.config/net.imput.helium/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/06-08:16:39.561 69d Recovering log #440
+2026/09/06-08:16:39.579 69d Reusing old log /home/mrijann/.config/net.imput.helium/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000440.log 
+2026/09/06-08:16:43.209 69d Level-0 table #448: started
+2026/09/06-08:16:43.226 69d Level-0 table #448: 1105906 bytes OK
+2026/09/06-08:16:43.229 69d Delete type=0 #440
+2026/09/06-08:16:44.278 69f Compacting 1@1 + 4@2 files
+2026/09/06-08:16:44.335 69f Generated table #449@1: 70439 keys, 2244646 bytes
+2026/09/06-08:16:44.381 69f Generated table #450@1: 41303 keys, 2200082 bytes
+2026/09/06-08:16:44.411 69f Generated table #451@1: 10078 keys, 2191705 bytes
+2026/09/06-08:16:44.450 69f Generated table #452@1: 35531 keys, 2178361 bytes
+2026/09/06-08:16:44.451 69f Generated table #453@1: 360 keys, 31915 bytes
+2026/09/06-08:16:44.452 69f Compacted 1@1 + 4@2 files => 8846709 bytes
+2026/09/06-08:16:44.453 69f compacted to: files[ 0 0 8 0 0 0 0 ]
+2026/09/06-08:16:44.453 69f Delete type=2 #442
+2026/09/06-08:16:44.453 69f Delete type=2 #448
+2026/09/06-08:16:44.453 69f Delete type=2 #444
+2026/09/06-08:16:44.453 69f Delete type=2 #445
+2026/09/06-08:16:44.453 69f Delete type=2 #443
+2026/09/06-08:16:49.840 69f Level-0 table #455: started
+2026/09/06-08:16:49.863 69f Level-0 table #455: 1109445 bytes OK
+2026/09/06-08:16:49.865 69f Delete type=0 #447
+2026/09/06-08:16:54.127 69f Compacting 1@1 + 8@2 files
+2026/09/06-08:16:54.184 69f Generated table #456@1: 72591 keys, 2249181 bytes
+2026/09/06-08:16:54.223 69f Generated table #457@1: 41675 keys, 2202981 bytes
+2026/09/06-08:16:54.246 69f Generated table #458@1: 10042 keys, 2183801 bytes
+2026/09/06-08:16:54.279 69f Generated table #459@1: 35082 keys, 2177620 bytes
+2026/09/06-08:16:54.284 69f Generated table #460@1: 3748 keys, 227109 bytes
+2026/09/06-08:16:54.284 69f Compacted 1@1 + 8@2 files => 9040692 bytes
+2026/09/06-08:16:54.285 69f compacted to: files[ 0 0 5 0 0 0 0 ]
+2026/09/06-08:16:54.286 69f Delete type=2 #455
+2026/09/06-08:16:54.286 69f Delete type=2 #452
+2026/09/06-08:16:54.286 69f Delete type=2 #431
+2026/09/06-08:16:54.286 69f Delete type=2 #439
+2026/09/06-08:16:54.286 69f Delete type=2 #450
+2026/09/06-08:16:54.286 69f Delete type=2 #453
+2026/09/06-08:16:54.286 69f Delete type=2 #414
+2026/09/06-08:16:54.286 69f Delete type=2 #449
+2026/09/06-08:16:54.286 69f Delete type=2 #451

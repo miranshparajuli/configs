@@ -1,0 +1,18 @@
+2026/08/10-19:54:30.504 7fc Creating DB /home/mrijann/.config/net.imput.helium/Default/IndexedDB/https_wheelofnames.com_0.indexeddb.leveldb since it was missing.
+2026/08/10-19:54:30.508 7fc Reusing MANIFEST /home/mrijann/.config/net.imput.helium/Default/IndexedDB/https_wheelofnames.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/08/10-19:54:30.515 7fc Level-0 table #5: started
+2026/08/10-19:54:30.516 7fc Level-0 table #5: 1332 bytes OK
+2026/08/10-19:54:30.517 7fc Delete type=0 #3
+2026/08/10-19:54:30.518 7fc Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/08/10-19:55:07.418 7fc Level-0 table #7: started
+2026/08/10-19:55:07.419 7fc Level-0 table #7: 1383 bytes OK
+2026/08/10-19:55:07.420 7fc Delete type=0 #4
+2026/08/10-19:55:07.420 7fc Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/08/10-19:55:07.421 7fc Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x01\x13\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x00u\x00n\x00d\x00e\x00f\x00i\x00n\x00e\x00d' @ 122 : 1
+2026/08/10-19:55:07.421 7fc Compacting 1@1 + 1@2 files
+2026/08/10-19:55:07.422 7fc Generated table #8@1: 34 keys, 984 bytes
+2026/08/10-19:55:07.422 7fc Compacted 1@1 + 1@2 files => 984 bytes
+2026/08/10-19:55:07.423 7fc compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/10-19:55:07.423 7fc Delete type=2 #5
+2026/08/10-19:55:07.423 7fc Delete type=2 #7
+2026/08/10-19:55:07.423 7fc Manual compaction at level-1 from '\x00\x03\x01\x02\x01\x13\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x00u\x00n\x00d\x00e\x00f\x00i\x00n\x00e\x00d' @ 122 : 1 .. (end); will stop at (end)

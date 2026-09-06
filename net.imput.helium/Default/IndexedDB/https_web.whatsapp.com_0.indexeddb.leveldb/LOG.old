@@ -1,0 +1,34 @@
+2026/09/05-16:39:02.584 40f Reusing MANIFEST /home/mrijann/.config/net.imput.helium/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/05-16:39:02.585 40f Recovering log #424
+2026/09/05-16:39:02.585 40f Reusing old log /home/mrijann/.config/net.imput.helium/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000424.log 
+2026/09/05-16:39:18.046 421 Level-0 table #434: started
+2026/09/05-16:39:18.063 421 Level-0 table #434: 1125142 bytes OK
+2026/09/05-16:39:18.065 421 Delete type=0 #424
+2026/09/05-16:39:18.084 411 Compacting 1@1 + 4@2 files
+2026/09/05-16:39:18.128 411 Generated table #435@1: 67772 keys, 2241348 bytes
+2026/09/05-16:39:18.156 411 Generated table #436@1: 40694 keys, 2204180 bytes
+2026/09/05-16:39:18.174 411 Generated table #437@1: 10052 keys, 2188583 bytes
+2026/09/05-16:39:18.201 411 Generated table #438@1: 36498 keys, 2181354 bytes
+2026/09/05-16:39:18.203 411 Generated table #439@1: 1422 keys, 78925 bytes
+2026/09/05-16:39:18.203 411 Compacted 1@1 + 4@2 files => 8894390 bytes
+2026/09/05-16:39:18.204 411 compacted to: files[ 0 0 7 0 0 0 0 ]
+2026/09/05-16:39:31.738 411 Level-0 table #441: started
+2026/09/05-16:39:31.759 411 Level-0 table #441: 1042306 bytes OK
+2026/09/05-16:39:31.760 411 Delete type=2 #430
+2026/09/05-16:39:31.760 411 Delete type=2 #429
+2026/09/05-16:39:31.760 411 Delete type=2 #434
+2026/09/05-16:39:31.760 411 Delete type=2 #427
+2026/09/05-16:39:31.760 411 Delete type=0 #433
+2026/09/05-16:39:31.760 411 Delete type=2 #428
+2026/09/05-16:40:05.510 411 Compacting 1@1 + 4@2 files
+2026/09/05-16:40:05.549 411 Generated table #442@1: 69004 keys, 2242826 bytes
+2026/09/05-16:40:05.574 411 Generated table #443@1: 40418 keys, 2200615 bytes
+2026/09/05-16:40:05.591 411 Generated table #444@1: 10505 keys, 2184500 bytes
+2026/09/05-16:40:05.612 411 Generated table #445@1: 35420 keys, 2137957 bytes
+2026/09/05-16:40:05.612 411 Compacted 1@1 + 4@2 files => 8765898 bytes
+2026/09/05-16:40:05.612 411 compacted to: files[ 0 0 7 0 0 0 0 ]
+2026/09/05-16:40:05.613 411 Delete type=2 #436
+2026/09/05-16:40:05.613 411 Delete type=2 #437
+2026/09/05-16:40:05.613 411 Delete type=2 #435
+2026/09/05-16:40:05.613 411 Delete type=2 #438
+2026/09/05-16:40:05.613 411 Delete type=2 #441

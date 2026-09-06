@@ -1,0 +1,7 @@
+2026/08/12-18:49:39.299 3e5 Reusing MANIFEST /home/mrijann/.config/net.imput.helium/Default/IndexedDB/https_kleki.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/08/12-18:49:39.299 3e5 Recovering log #4
+2026/08/12-18:49:39.304 3e5 Reusing old log /home/mrijann/.config/net.imput.helium/Default/IndexedDB/https_kleki.com_0.indexeddb.leveldb/000004.log 
+2026/08/12-18:49:39.312 3f7 Level-0 table #8: started
+2026/08/12-18:49:39.322 3f7 Level-0 table #8: 1348298 bytes OK
+2026/08/12-18:49:39.323 3f7 Delete type=0 #4
+2026/08/12-18:49:39.323 3e5 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
